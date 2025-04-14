@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('/Feedback/images/Library\ -bg2.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+.fine-table {
+    margin-top: 25px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Style the table itself */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Space between rows */
+    font-size: 16px;
+}
+
+/* Table headers */
+table th {
+    background-color: #e6f2e6;
+    padding: 12px;
+    text-align: center;
+    color: #004d00;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Table data */
+table td {
+    background-color: #f9f9f9;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add spacing between columns */
+table td:not(:last-child),
+table th:not(:last-child)
+
+

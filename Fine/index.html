@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GIMPA Library Fines</title>
+    <link rel="stylesheet" href="/Fine/Fine.css">
+</head>
+<body>
+    <div class="fine-container">
+        <h2>GIMPA University Library - Fine Management</h2>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <label for="studentId">Enter Student ID:</label>
+            <input type="text" id="studentId" placeholder="ID. 202301234">
+            <button onclick="searchStudent()">Search</button>
+        </div>
+
+        <!-- Student Info Section -->
+        <div id="student-info" class="student-info hidden">
+            <h3>Student Information</h3>
+            <p><strong>Name:</strong> <span id="studentName">---</span></p>
+            <p><strong>Contact:</strong> <span id="studentContact">---</span></p>
+        </div>
+
+        <!-- Fines Table -->
+        <div id="fine-details" class="fine-table hidden">
+            <h3>Fine Details</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fine ID</th>
+                        <th>Transaction ID</th>
+                        <th>Amount (GHS)</th>
+                        <th>Paid Status</th>
+                        <th>Book Name</th>
+                    </tr>
+                </thead>
+                <tbody id="fineTableBody">
+                    <!-- Fines will be inserted dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="fines.js"></script>
+</body>
+</html>

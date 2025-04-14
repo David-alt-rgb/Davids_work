@@ -1,0 +1,192 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image :url('/Fine/images/Library-bg.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container ,
+.fine-container{
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #004d00;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #007e33;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f24;
+}
+
+section{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+section.form-container{
+    height: 500px;
+    margin-top: 0px;
+    background-image: url("/images/Library-bg.jpg");
+}
+
+
+/* ========== CONTAINER SHARED STYLE ========== */
+.form-container,
+.fine-container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ========== HEADINGS ========== */
+h2 {
+    text-align: center;
+    color: #004d00;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #004d00;
+    margin-bottom: 10px;
+}
+
+/* ========== LABELS & INPUTS ========== */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-size: 15px;
+}
+
+/* ========== BUTTONS ========== */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007e33;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f24;
+}
+
+/* ========== SEARCH SECTION ========== */
+.search-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* ========== STUDENT INFO ========== */
+.student-info {
+    background-color: #f1f1f1;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* ========== FINE TABLE ========== */
+.fine-table {
+    margin-top: 25px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Space between rows */
+    font-size: 16px;
+}
+
+table th {
+    background-color: #e6f2e6;
+    padding: 12px;
+    text-align: center;
+    color: #004d00;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+}
+
+table td {
+    background-color: #f9f9f9;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Column spacing */
+table td:not(:last-child),
+table th:not(:last-child) {
+    padding-right: 20px;
+}
+
+/* ========== HIDDEN UTILITY ========== */
+.hidden {
+    display: none;
+}

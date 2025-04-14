@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GIMPA Library Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <section >
+    <div class="form-container">
+        <h2>GIMPA University Library - Student Feedback</h2>
+        <form id="feedbackForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required><br><br>
+
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required><br><br>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required><br><br>
+
+            <label for="rating">Library Experience Rating:</label>
+            <select id="rating" name="rating">
+                <option value="Excellent">Excellent</option>
+                <option value="Good">Good</option>
+                <option value="Fair">Fair</option>
+                <option value="Poor">Poor</option>
+            </select> <br><br>
+
+            <label for="message">Message / Suggestions:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
